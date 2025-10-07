@@ -50,4 +50,38 @@
 
     <script src="script.js"></script>
 </body>
+</html>NS TECHNICAL CAMPUS</h1>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <h1>Objective Question Paper Generator</h1>
+        
+        <div class="input-section">
+            <div class="file-upload">
+                <input type="file" id="excelFile" accept=".xlsx, .xls" />
+                <label for="excelFile">Upload Question Bank</label>
+                <h3>The question bank must be uploaded only in Excel format (.xlsx or .xls).</h3>
+            </div>
+
+            <div class="paper-type">
+                <h3>Select Paper Type:</h3>
+                <select id="paperType">
+                    <option value="mid1">First Mid (Units 1, 2 & Part of 3)</option>
+                    <option value="mid2">Second Mid (Units 4, 5 & Part of 3)</option>
+                </select>
+            </div>
+
+            <button id="generateButton">Generate Objective Paper</button>
+        </div>
+
+        <div class="output-section">
+            <div id="questionPaper"></div>
+            <button id="downloadButton" style="display: none;">Download Objective Paper</button>
+        </div>
+    </div>
+    <div class="watermark">Copyright © -AIML@GNITC</div>
+
+    <script src="script.js"></script>
+</body>
 </html>
